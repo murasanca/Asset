@@ -1,8 +1,10 @@
 // Murat Sancak
 
+#if UNITY_EDITOR||UNITY_EDITOR_64||UNITY_EDITOR_WIN
 using System.IO;
 using UnityEditor;
 using UnityEngine;
+
 using static System.Environment;
 using static System.String;
 using static UnityEditor.AssetDatabase;
@@ -201,5 +203,6 @@ namespace murasanca
         private string R(char c,string s) => c is '/' ? s.Replace('\\','/') : s.Replace('/','\\'); // R: Replace, c: Character, s: String.
     }
 }
+#endif
 
 // Murat Sancak
