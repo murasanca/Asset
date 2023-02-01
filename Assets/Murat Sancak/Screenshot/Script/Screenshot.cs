@@ -12,16 +12,16 @@ namespace murasanca
             l=true,   // l: Left.
             r=false; // r: Right.
 
-        private UnityEngine.GameObject c; // c: Camera.
-
-        private UnityEngine.GUIContent m; // m: murasanca.
-
         private int pu; // pu: Pop-up.
 
         private string
-            e="",   // e: Extension.
-            n="",  // n: Name.
-            p=""; // p: Path.
+            e=string.Empty,   // e: Extension.
+            n=string.Empty,  // n: Name.
+            p=string.Empty; // p: Path.
+
+        private UnityEngine.GameObject c; // c: Camera.
+
+        private UnityEngine.GUIContent m; // m: murasanca.
 
         private readonly string[] o=new string[3]{"Data","Desktop","Other"}; // o: Options.
 
