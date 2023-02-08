@@ -1,9 +1,6 @@
 // Murat Sancak
 
 #if UNITY_EDITOR||UNITY_EDITOR_64||UNITY_EDITOR_WIN
-
-// Murat Sancak
-
 namespace murasanca
 {
     public class Screenshot:UnityEditor.EditorWindow
